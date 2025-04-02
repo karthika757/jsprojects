@@ -1,0 +1,74 @@
+body{
+   display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Ensures full height of the viewport */
+    margin: 0;      
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.con{
+    
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 2px solid #eaab4c; /* This adds the border */
+    box-shadow: 10px 0 100px rgba(227, 219, 7, 0.1); /* Optional: adds a shadow effect */
+    border-radius:25px;
+    width: 600px; /* New width */
+    min-height: 150px; /* Initial height */
+    height: auto;
+    overflow: hidden; /* No extra scroll */
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    }
+
+    ul {
+        list-style: none; /* Removes default dots */
+        padding: 0;
+        width: 100%; /* Full width inside box */
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between; /* Push text & button apart */
+        align-items: center;
+        background: white;
+        padding: 2px 13px;
+        margin: 8px 2px;
+        border-radius: 5px;
+        color:rgb(161, 110, 15);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
+        font-weight: 700;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    /* Space out task text from the button */
+    
+    
+    .con button:hover {
+        background: darkred;
+    }
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #151414;
+    border-radius: 5px;
+}
+.con button{
+    
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 10px 20px;
+        border: 15px;
+        background-color:rgb(243, 198, 174);
+        color:#474444;
+        border-radius:11px;
+        cursor:pointer;
+        margin-top: 20px;
+}
